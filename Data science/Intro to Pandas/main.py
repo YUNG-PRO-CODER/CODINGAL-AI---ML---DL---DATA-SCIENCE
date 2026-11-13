@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 scores = np.array([950, 870, 780, 650, 540], dtype=np.int64)
-players = ["Atharv", "Rahul", "Arjun", "Rohan", "Karan"]  # ts is the code
+players = ["Atharv", "Rahul", "Arjun", "Rohan", "Karan"]
 series = pd.Series(scores, index=players)
 
 print("\nPANDAS SERIES")
